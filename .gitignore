@@ -1,0 +1,16 @@
+.env
+
+# Editors
+.vscode
+
+# Compiled / distribution
+dist/
+__pycache__/
+
+# Dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*

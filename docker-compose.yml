@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:13.4
+    ports:
+      - 5406:5432
+    environment:
+      POSTGRES_USER: xUser
+      POSTGRES_PASSWORD: xPwd
+      POSTGRES_DB: xDbName
+    networks:
+      - justice
+  # backend:
+  #   build:
+  #     context: ./backend
+  #   ports:
+  #     - "8000:80"
+  #   depends_on:
+  #     - db
+
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #   ports:
+  #     - "3000:3000"
+  #   depends_on:
+  #     - backend
+networks:
+  justice:
+    driver: bridge
