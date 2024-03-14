@@ -5,22 +5,25 @@ import '../custom-styles.css';
 
 const Conversation = () => {
     const [messages, setMessages] = useState([]);
+    const [isWaiting, setIsWaiting] = useState(false);
 
     const getChatAnswer = async (query) => {
+        setIsWaiting(true);
         try {
             const requestBody = {
                 content: query
             };
 
             const response = await api.post("/get_answer", requestBody);
-            const data = await response.data;
 
+            const data = await response.data;
             if (response.status === 200) {
                 setMessages(prevMessages => [data.content, ...prevMessages]);
-
             }
         } catch (error) {
             console.error("Error feteching data!")
+        } finally {
+            setIsWaiting(false);
         }
     }
 
@@ -51,7 +54,10 @@ const Conversation = () => {
             </div>
             <form onSubmit={handleSubmit} className="mt-auto">
                 <textarea rows="4" cols="50" className="form-control mb-2" />
-                <button type="submit" className="btn custom-bg-salmon">Submit</button>
+                { }
+                <button type="submit" className={isWaiting ? "btn custom-bg-grenat" : "btn custom-bg-salmon"} disabled={isWaiting}>
+                    {isWaiting ? 'Please wait...' : 'Submit'}
+                </button>
             </form>
         </div>
     );
