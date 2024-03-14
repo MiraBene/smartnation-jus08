@@ -29,3 +29,11 @@ services:
       timeout: 1s
       retries: 10
 
+  ai-justice-demo-frontend:
+    container_name: ai-justice-demo-frontend
+    hostname: ai-justice-demo-frontend
+    build:
+      context: ./frontend 
+    image: ai-justice-frontend:latest
+    ports:
+      - 3000:3000
