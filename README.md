@@ -9,8 +9,6 @@ Welcome to our [SmartNation Hackathon](https://bosa.belgium.be/fr/AIhackathon) p
 - Clément Nicolas
 - Mine Urfali
 
-![Sample screenshot](doc/sample.png)
-
 ## How to Use It
 
 The solution is packaged as a `docker compose` stack containing the following services:
@@ -25,3 +23,7 @@ The project is built with simplicity and accessibility in mind. To explore furth
 Sample command use:
 - `cd backend; uvicorn app.main:app --reload`
 - `cd frontend; npm start`
+
+## Screenshot
+
+![Sample screenshot](doc/sample.png)
