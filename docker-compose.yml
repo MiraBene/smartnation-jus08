@@ -1,30 +1,31 @@
 version: '3.8'
 services:
-  db:
-    image: postgres:13.4
-    ports:
-      - 5406:5432
+  ai-justice-demo-backend:
+    container_name: ai-justice-demo-backend
+    hostname: ai-justice-demo-backend
+    build:
+      context: ./backend 
+    image: ai-justice-backend:latest
     environment:
-      POSTGRES_USER: xUser
-      POSTGRES_PASSWORD: xPwd
-      POSTGRES_DB: xDbName
-    networks:
-      - justice
-  # backend:
-  #   build:
-  #     context: ./backend
-  #   ports:
-  #     - "8000:80"
-  #   depends_on:
-  #     - db
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./data/dataset:/dataset
+    working_dir: /app
+    ports:
+      - 8000:8000
 
-  # frontend:
-  #   build:
-  #     context: ./frontend
-  #   ports:
-  #     - "3000:3000"
-  #   depends_on:
-  #     - backend
-networks:
-  justice:
-    driver: bridge
+  elasticsearch:
+    image: "docker.elastic.co/elasticsearch/elasticsearch:8.11.1"
+    ports:
+      - 9200:9200
+    restart: on-failure
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
+    healthcheck:
+      test: curl --fail http://localhost:9200/_cat/health || exit 1
+      interval: 10s
+      timeout: 1s
+      retries: 10
+

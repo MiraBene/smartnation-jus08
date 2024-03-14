@@ -6,7 +6,7 @@
 # Compiled / distribution
 dist/
 __pycache__/
-
+*.pyc
 # Dependencies
 node_modules/
 

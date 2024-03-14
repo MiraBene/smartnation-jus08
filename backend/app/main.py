@@ -2,8 +2,9 @@ from typing import List
 
 import fastapi
 
-from . import schemas
-from . import services
+from lib import schemas
+from lib import services
+from lib.manager import AnswerManager
 
 
 # Initialise app (and create database if needed)
@@ -21,6 +22,17 @@ async def root():
 
 @app.post("/get_answer", response_model=schemas.Answer)
 async def fetch_position(query: schemas.Question):
-    print(query)
+    question = query.content
+    manager = AnswerManager()
+    orchestrator = manager.build_orchestrator()
+    orchestrator.run(question=question)
+    if orchestrator.is_success():
+        print("to the question: ")
+        print(question)
+        print()
+        print("our answer is:")
+        print(orchestrator.result)
+        return schemas.Answer(content=orchestrator.result)
+    else: 
+        return schemas.Answer(content="We were unable to answer to your question, sorry :(")
 
-    return services.get_answer_from_chat(query.content)
