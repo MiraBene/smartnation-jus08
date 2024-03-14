@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import api from '../api';
+import '../custom-styles.css';
 
 const Conversation = () => {
     const [messages, setMessages] = useState([]);
@@ -15,7 +16,7 @@ const Conversation = () => {
             const data = await response.data;
 
             if (response.status === 200) {
-                setMessages(prevMessages => [...prevMessages, data.content]);
+                setMessages(prevMessages => [data.content, ...prevMessages]);
 
             }
         } catch (error) {
@@ -26,24 +27,31 @@ const Conversation = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         const newMessage = event.target.elements[0].value;
-        setMessages(prevMessages => [...prevMessages, newMessage]);
+        setMessages(prevMessages => [newMessage, ...prevMessages]);
         getChatAnswer(newMessage);
         event.target.reset();
     };
 
     return (
-        <div className="border rounded p-3 mb-3">
+        <div className="border rounded p-3 mb-3 d-flex flex-column" style={{ maxHeight: '80vh', overflowY: 'auto' }}>
             <h2 className="text-center mb-4">Conversation</h2>
-            <div className="d-flex flex-column-reverse">
-                {messages.slice().reverse().map((message, index) => (
-                    <div key={index} className={index % 2 === 0 ? "align-self-end bg-light rounded p-2 mb-2" : "align-self-start bg-success text-white rounded p-2 mb-2"}>
-                        <p className="m-0">{message}</p>
-                    </div>
-                ))}
+            <div className="flex-grow-1 overflow-auto">
+                {/* Messages div*/}
+                {/* Messages are stylised alternatively: odd messages belong to the user, even messages to the chatbot. */}
+                <div className="d-flex flex-column-reverse">
+                    {messages.slice().map((message, index) => (
+                        <div key={index} className={index % 2 === 0 ?
+                            "align-self-start custom-bg-linen rounded p-1 mb-2" :
+                            "align-self-end custom-bg-salmon rounded p-1 mb-2"
+                        }>
+                            <p className="px-2 m-0">{message}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="mt-auto">
                 <textarea rows="4" cols="50" className="form-control mb-2" />
-                <button type="submit" className="btn btn-success">Submit</button>
+                <button type="submit" className="btn custom-bg-salmon">Submit</button>
             </form>
         </div>
     );
