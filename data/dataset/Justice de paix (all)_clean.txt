@@ -1,0 +1,345 @@
+Justice de paix du premier canton d'Eupen-Saint Vith
+Rathausplatz 4
+4700 Eupen
+
+Justice de paix du second canton d'Eupen-Saint Vith
+Rathausplatz 4
+4700 Eupen
+
+Justices de paix de l'arrondissement d'Eupen
+Rathausplatz 4
+4700 Eupen
+
+Justice de paix d'Andenne
+Place du Perron 17
+5300 Andenne
+
+Justice de paix d'Anderlecht 1er canton
+Place de la Résistance 3
+1070 Anderlecht
+
+Justice de paix d'Anderlecht 2ième canton
+Place de la Résistance 3
+1070 Anderlecht
+
+Justice de paix d'Arlon
+Place Schalbert A
+6700 Arlon
+
+Justice de paix d'Ath
+Place des Capucins 1 - 3ème étage
+7800 Ath
+
+Justice de paix d'Auderghem
+rue de l’Etang 4
+1040 Etterbeek
+
+Justice de paix d'Etterbeek
+Rue de l'Etang 4
+1040 Bruxelles (Etterbeek)
+
+Justice de paix d'Ixelles
+Place Poelaert 3
+1000 Bruxelles (Ixelles)
+
+Justice de paix d'Uccle
+Parvis Saint-Pierre 26
+1180 Uccle
+
+Justice de paix de Bastogne
+Rue des Récollets 6
+6600 Bastogne
+
+Justice de paix de Binche
+Avenue Charles Deliège 54
+7130 Binche
+
+Justice de paix de Boussu-Colfontaine I
+Rue Grande Campagne 34 (Amphithéâtre Hadès)
+7301 Boussu
+
+Justice de paix de Boussu-Colfontaine II
+Rue Grande Campagne 34
+7301 Boussu
+
+Justice de paix de Braine-l'Alleud
+Rue Pierre Flamand 64 (1er étage)
+1420 Braine-l'Alleud
+
+Justice de paix de Bruxelles 1er canton
+Place Poelaert 3 boîte 5
+1000 Bruxelles
+
+Justice de paix de Bruxelles 2ième canton
+Place Poelaert 3 boîte 5
+1000 Bruxelles
+
+Justice de paix de Bruxelles 3ième canton
+rue Fransman 89
+1020 Bruxelles
+
+Justice de paix de Bruxelles 4ième canton
+Rue Fransman 89
+1020 Bruxelles
+
+Justice de paix de Charleroi I
+Avenue Général Michel 2 boîte 3
+6000 Charleroi
+
+Justice de paix de Charleroi II
+Avenue Général Michel 2 boîte 3
+6000 Charleroi
+
+Justice de paix de Charleroi III
+Rue de Beaumont 28
+6030 Marchienne-au-Pont
+
+Justice de paix de Charleroi IV
+Rue de Beaumont 28
+6030 Marchienne-au-Pont
+
+Justice de paix de Châtelet
+Place de l'Hôtel de Ville 9
+6200 Châtelet
+
+Justice de paix de Chimay
+Grand’Place 13
+6460 Chimay
+
+Justice de paix de Ciney
+Rue Courtejoie 17 ( 3ème étage )
+5590 Ciney
+
+Justice de paix de Dinant
+Rue Arthur Defoin 215 A
+5500 Dinant
+
+Justice de paix de Fléron
+Rue du Bay-Bonnet 15
+4620 Fléron
+
+Justice de paix de Forest
+Chaussée d'Alsemberg 296
+1190 Forest
+
+Justice de paix de Fosses-la-Ville
+Rue Delmotte-Lemaître 6
+5070 Fosses-la-Ville
+
+Justice de paix de Ganshoren
+Rue Fransman 89
+1020 Bruxelles (Ganshoren)
+
+Justice de paix de Gembloux
+Chaussée de Wavre 46
+5030 Gembloux
+
+Justice de paix de Grâce-Hollogne
+Rue de l'Hotel Communal 30
+4460 Grâce-Hologne
+
+Justice de paix de Herstal
+Large Voie 49
+4040 Herstal
+
+Justice de paix de Huy I
+Quai d'Arona 4
+4500 Huy
+
+Justice de paix de Huy II
+Quai d'Arona 4
+4500 Huy
+
+Justice de paix de Jette
+Place Cardinal Mercier 11
+1090 Jette
+
+Justice de paix de Jodoigne
+Avenue des Commandants Borlée 42
+1370 Jodoigne
+
+Justice de paix de La Louvière
+Rue des Carrelages 16
+7100 La Louvière
+
+Justice de paix de Leuze-en-Hainaut
+Rue d'Ath 33
+7900 Leuze-en-Hainaut
+
+Justice de paix de Liège I
+Rue de Bruxelles 2/0005
+4000 Liège
+
+Justice de paix de Liège II
+Rue de Bruxelles 2/0006
+4000 Liège
+
+Justice de paix de Liège III
+Rue de Bruxelles 2/0007
+4000 Liège
+
+Justice de paix de Liège IV
+Rue de Bruxelles 2/0005
+4000 Liège
+
+Justice de paix de Limbourg
+Modification TEMPORAIRE du siège au Palais de Justice d’Eupen (4700), Rathausplatz 4
+4700 EUPEN
+
+Justice de paix de Marche-en-Famenne
+Rue Victor Libert 7 - Batiment C
+6900 Marche-en-Famenne
+
+Justice de paix de Meise
+Gemeenteplein 15
+1861 Meise
+
+Justice de paix de Molenbeek-Saint-Jean
+Rue du Niveau 7
+1080 Molenbeek-Saint-Jean
+
+Justice de paix de Mons I
+Rue de Nimy 16/1
+7000 Mons
+
+Justice de paix de Mons II
+Rue de Nimy 16/2
+7000 Mons
+
+Justice de paix de Mouscron
+Place Lamartine 1
+7700 Mouscron
+
+Justice de paix de Namur I
+Place Saint-Aubain 5
+5000 Namur
+
+Justice de paix de Namur II
+Rempart de la Vierge 2
+5000 Namur
+
+Justice de paix de Neufchâteau
+Place Charles Bergh 7
+6840 Neufchâteau
+
+Justice de paix de Nivelles
+Rue Clarisse 115
+1400 Nivelles
+
+Justice de paix de Philippeville - siège Couvin
+Rue du Bercet 12
+5660 Couvin
+
+Justice de paix de Philippeville - siège Florennes
+Rue de Mettet 21
+5620 Florennes
+
+Justice de paix de Rhode-Saint-Genèse
+Avenue de la Forêt de Soignes 83
+1640 Rhode-Saint-Genèse
+
+Justice de paix de Saint-Gilles
+Parvis Saint-Gilles 1
+1060 Bruxelles (Saint-Gilles)
+
+Justice de paix de Saint-Josse-ten-Noode
+Avenue de l’Astronomie 30/8
+1210 Saint-Josse-ten-Noode
+
+Justice de paix de Schaerbeek 1er canton
+Rue Royale 271-273
+1030 Bruxelles (Schaerbeek)
+
+Justice de paix de Schaerbeek 2ième canton
+Rue Royale 271-273
+1030 Bruxelles (Schaerbeek)
+
+Justice de paix de Seneffe
+Rue Rouge Croix 3
+7180 Seneffe
+
+Justice de paix de Seraing
+Rue de l'Ecureuil 74
+4100 Seraing
+
+Justice de paix de Soignies
+Rue de la Station 82
+7060 Soignies
+
+Justice de paix de Spa
+Avenue Reine Astrid 77a
+4900 Spa
+
+Justice de paix de Sprimont
+Rue du Pérréon 34
+4141 Louveigné
+
+Justice de paix de Thuin
+Grand'Rue 46
+6530 Thuin
+
+Justice de paix de Tongres-Fourons
+Kielenstraat 22/5
+3700 Tongres
+
+Justice de paix de Tournai I
+Boulevard Léopold 72
+7500 Tournai
+
+Justice de paix de Tournai II
+Boulevard Léopold 72
+7500 Tournai
+
+Justice de paix de Verviers I
+Rue du Tribunal 9
+4800 Verviers
+
+Justice de paix de Verviers II
+Rue du Tribunal 9
+4800 Verviers
+
+Justice de paix de Virton
+Avenue Bouvier 27
+6760 Virton
+
+Justice de paix de Visé
+Place Jean Donnay 1
+4602 Cheratte
+
+Justice de paix de Waremme
+Avenue Emile Vandervelde 31 f
+4300 Waremme
+
+Justice de paix de Wavre I
+Place de l'Hôtel de Ville
+1300 Wavre
+
+Justice de paix de Wavre II
+Chaussée de Bruxelles 8
+1300 Wavre
+
+Justice de paix de Woluwe-Saint-Pierre
+Avenue Grandchamp 147
+1150 Woluwe-Saint-Pierre
+
+Justices de paix de Bruxelles
+
+
+Justices de paix de l'arrondissement de Liège
+Rue de Bruxelles 2/0005
+4000 Liège
+
+Justices de paix de Namur
+Place Saint Aubain
+5000 Namur
+
+Justices de paix du Brabant wallon
+Rue Clarisse 115
+1400 Nivelles
+
+Justices de paix du Hainaut
+
+
+Justices de paix du Luxembourg
+Rue V. Libert 7
+6900 Marche-en-Famenne
