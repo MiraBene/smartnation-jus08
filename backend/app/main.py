@@ -20,7 +20,7 @@ async def root():
 
 
 @app.post("/get_answer", response_model=schemas.Answer)
-async def fetch_position(form_data: schemas.Question = fastapi.Depends()):
-    print(form_data)
+async def fetch_position(query: schemas.Question):
+    print(query)
 
-    return services.get_answer_from_chat(form_data.content)
+    return services.get_answer_from_chat(query.content)
