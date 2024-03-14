@@ -15,13 +15,13 @@ app = fastapi.FastAPI()
 # Routes
 # ---------------------------------
 @app.get("/info")
-async def root():
+def root():
     """Provide basic information on the API status."""
     return services.get_api_info()
 
 
 @app.post("/get_answer", response_model=schemas.Answer)
-async def fetch_position(query: schemas.Question):
+def fetch_position(query: schemas.Question):
     question = query.content
     manager = AnswerManager()
     orchestrator = manager.build_orchestrator()
