@@ -26,7 +26,7 @@ async def fetch_position(query: schemas.Question):
     manager = AnswerManager()
     orchestrator = manager.build_orchestrator()
     orchestrator.run(question=question)
-    if orchestrator.is_success():
+    if orchestrator.is_success() or orchestrator.result is None:
         print("to the question: ")
         print(question)
         print()
