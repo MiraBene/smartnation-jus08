@@ -13,6 +13,7 @@ RUN npm install
 COPY . .
 
 # Build the React app
+
 RUN npm run build
 
 # Expose port 3000 to the outside world

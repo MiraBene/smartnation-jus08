@@ -4,7 +4,7 @@ services:
     container_name: ai-justice-demo-backend
     hostname: ai-justice-demo-backend
     build:
-      context: ./backend 
+      context: ./backend
     image: ai-justice-backend:latest
     environment:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
@@ -33,9 +33,7 @@ services:
     container_name: ai-justice-demo-frontend
     hostname: ai-justice-demo-frontend
     build:
-      context: ./frontend 
+      context: ./frontend
     image: ai-justice-frontend:latest
-    environment:
-      - BACKEND_URL=localhost:8000
     ports:
       - 3000:3000

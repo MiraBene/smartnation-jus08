@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-import api from '../api';
+//import api from '../api';
+import axios from 'axios';
 import '../custom-styles.css';
 
 const Conversation = () => {
@@ -14,7 +15,8 @@ const Conversation = () => {
                 content: query
             };
 
-            const response = await api.post("/get_answer", requestBody);
+            //const response = await api.post("/get_answer", requestBody);
+            const response = await axios.post("http://0.0.0.0:8000/get_answer", requestBody);
 
             const data = await response.data;
             if (response.status === 200) {
